@@ -1,0 +1,46 @@
+body{
+    background-color: #c9ba7d;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+footer{
+    margin-top: 400px;
+    font-style: italic;
+}
+
+#show{
+    text-align: left;
+    margin-left: 25%;
+}
+
+dt{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+dd{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+#reloadLink{
+    font-size: 30px;
+    font-weight: bold;
+}

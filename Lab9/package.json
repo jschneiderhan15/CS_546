@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "Module for cs546 lab 9.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "John Schneiderhan 10445111",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "handlebars": "^4.7.7"
+  }
+}

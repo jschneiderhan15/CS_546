@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "Module for lab 3 CS546",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "John Schneiderhan 10445111",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "Module for cs546 lab 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "John Schneiderhan 10445111",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.3.1"
+  }
+}

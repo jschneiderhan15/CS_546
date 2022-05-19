@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/public/main_styles.css">
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <article>
+            <h1>{{title}}</h1>
+            <img alt = "TV show cover" src = {{img}}>
+            <dl>
+                <dt>Language</dt>
+                <dd>{{language}}</dd>
+                <dt>Genres</dt>
+                <dd>
+                    <ul>
+                        {{#each genre}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </dd>
+                <dt>Average Rating</dt>
+                <dd>{{average}}</dd>
+                <dt>Network</dt>
+                <dd>{{network}}</dd>
+                <dt>Summary</dt>
+                <dd>{{summary}}</dd>
+            </dl>
+        </article>
+    </body>
+</html>

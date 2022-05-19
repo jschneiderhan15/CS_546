@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "/public/main_styles.css">
+        <title>{{title}}</title>
+    </head>
+    <body class = 'index'>
+        <article class = 'index-article'>
+            <p class = 'index-p'> Hi there! This website will allow you to search through the 
+                TV Maze API for a certain keyword. Just go ahead and type in a 
+                keyword for results! Have fun!
+            </p>
+            <form class = 'index-form' action = "/searchshows" method = "POST">
+                <label for = "term">Enter your Search Term:</label>
+                <input id = "term" type = "text" name = "showSearchTerm" placeholder = "Search term goes here..."/>
+                <button type = "submit">Search</button>
+            </form>
+        </article>
+    </body>
+</html>

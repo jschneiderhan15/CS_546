@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AJAX Show Finder</title>
+        <link rel="stylesheet" href="/public/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>AJAX Show Finder</h1>
+        </header>
+        <form id = 'searchForm'>
+            <label for = 'search_term'>Enter your search term here:</label>
+            <input type = 'text' id = 'search_term' name = 'search_term'>
+            <button type = 'submit'>Search</button>
+        </form>
+        <ul id = 'showList' hidden>
+
+        </ul>
+        <div id = 'show' hidden>
+
+        </div>
+        <a href = "/" id = 'reloadLink' hidden>Back to All Shows</a>
+        <footer>
+            <p>Created by Jack Schneiderhan</p>
+            <p>Student ID 10445111</p>
+            <p>Excited to be working on the last lab!</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+        <script src='/public/js/ajax.js'></script>
+    </body>
+</html> 
